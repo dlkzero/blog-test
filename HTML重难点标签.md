@@ -26,3 +26,14 @@ rel=noopener
 跳转外部页面  
 跳转内部锚点  
 跳转到邮箱或电话等
+  
+a的target的取值
+内置名字  
+_blank 新的页面打开   
+_top  在最顶层页面打开  
+_parent 在父级窗口打开   
+_self  在默认页面打开  
+  
+程序员命名  
+window的name  
+iframe的name  
