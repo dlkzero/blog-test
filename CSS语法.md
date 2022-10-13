@@ -11,3 +11,15 @@
 * 没有//注释  
 * 最后一个分号可以省略,但建议不要省略  
 * 任何地方写错了,都不会报错,浏览器会直接忽略  
+  
+语法二:at语法  
+@charset "UTF-8"; 字符编码   
+@import url(2.css); 导入另外一个css编码    
+@media (min-width:100px) and (max-width:200px){  
+  语法一  
+}  
+  
+注意事项  
+* @charst必须放在第一行  
+* 前两个at语法必须以分号;结尾    
+* charst是字符集的意思,但UTF-8是字符编码encoding,这是历史遗留问题   
