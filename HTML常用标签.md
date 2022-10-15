@@ -1,12 +1,16 @@
-**a标签的用法:** 
+**a标签的用法:**  
 属性有:  
-href 超链接  
-href的取值:  
-网址： 可以简写//xxxx.com 因为最高级  
-路径:/a/b/c以及a/b/c index.html以及 ./index.html  
-伪协议:  
-JavaScript:代码;  
-mailto:邮箱; tel:手机号  
+* href 超链接  
+ 
+**href的取值:**  
+* 网址： 可以简写//xxxx.com 因为最高级  
+* 路径:/a/b/c以及a/b/c index.html以及 ./index.html  
+
+**伪协议:**  
+* JavaScript:代码;  
+* mailto:邮箱;  
+* tel:手机号  
+
 target 在每个新窗口打开超链接  
 download  
 rel=noopener  
@@ -27,7 +31,14 @@ _parent 在父级窗口打开
 _self 在默认页面打开   
   
 
-**img标签的用法**:发出get请求,展示一张图片  
+**img标签的用法**:
+img标签 图片(永远不要让图片变形)  
+作用:发出get请求,展示一张图片  
+属性:alt(可选的)/height(高度)/width(宽度)/src(路径)  
+事件:onload/onerror  
+响应式:max-width:100%  
+可替换元素  
+
 ```
 <img width="400" src="https://www.img.xz95.top/img/wikipedia/zh/9/98/KamenRiderKuuga-title.jpg" alt="">图片
 ```
