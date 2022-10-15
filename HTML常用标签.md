@@ -31,8 +31,17 @@ _self 在默认页面打开
 ```
 <img width="400" src="https://www.img.xz95.top/img/wikipedia/zh/9/98/KamenRiderKuuga-title.jpg" alt="">图片
 ```
-**table标签的用法**:用来展示数据
-```
+**table标签的用法**:
+table标签 表格  
+table标签里面只能有三个标签:thead tbody tfoot  
+tr = table row (行标签)  
+th 表头  
+td 数据  
+相关的样式  
+table-layout  
+border-collapse 控制边框是否合并  
+border-spacing 边框间隙  
+```  
     <table>
         <thead>
             <tr>
