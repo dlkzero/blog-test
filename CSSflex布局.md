@@ -5,13 +5,15 @@
 ```css  
 .container{  
  flex-direction:row(从左往右) | row-reverse(从右往左) | column(从上往下) | column-reverse(从下往上)
-
+```  
+  
 如何让container变成flex  
 ```css
 .container{
   display:flex; /* or inline-flex */
 }
-```  
+```   
+  
 flex container有哪些样式 
 ```css
 .container{
