@@ -35,3 +35,28 @@ flex container有哪些样式
 ```css  
 .container{
   align-content: flex-start(顶部对齐) | flex-end(底部对齐) | center(居中对齐) | stretch(延申对齐)
+```  
+
+
+**flex item有哪些属性**  
+* 加order(按顺序排列)  
+* 加flex-grow(控制占多少空间)
+  
+flex-shrink控制如何变瘦  
+* 一般写flex-shrink:0 防止变瘦,默认是1
+  
+flex-basis控制基准宽度  
+* 默认是auto  
+
+align-self定制align-items  
+* align-self可以单独控制; flex-start / flex-end  
+   
+ **写死**  
+ * width:100px  
+   
+ **不写死**  
+ * width:50%;  
+ * max-width:100px;  
+ * width:30vw;  
+ * min-width:80%;  
+ * 特点:不使用px,或者加min max前缀
