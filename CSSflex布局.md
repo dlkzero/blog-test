@@ -22,7 +22,7 @@ flex container有哪些样式
 主轴对齐  
 ```css  
 .container{  
-  justify-content:flex-start(靠左对齐) | flex-end(靠右对齐) | center(居中对齐) | space-between(两端对齐) | space-around(剩余空间对齐) | space-evenly(平均对齐)   
+  justify-content: flex-start(靠左对齐) | flex-end(靠右对齐) | center(居中对齐) | space-between(两端对齐) | space-around(剩余空间对齐) | space-evenly(平均对齐)   
 }
 ```  
 纵轴对齐  
@@ -34,4 +34,4 @@ flex container有哪些样式
 多行内容  
 ```css  
 .container{
-  align-content:flex-start(顶部对齐) | flex-end(底部对齐) | center(居中对齐) | stretch(延申对齐)
+  align-content: flex-start(顶部对齐) | flex-end(底部对齐) | center(居中对齐) | stretch(延申对齐)
