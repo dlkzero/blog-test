@@ -13,6 +13,13 @@
   * transition:属性名 时长 过渡方式 延迟  
 
 **animation**  
-  * animation:时长 | 过渡方式 | 延迟 | 次数 | 方向 | 填充模式 | 是否暂停 | 动画名; 这些属性都有对应的单独属性
+  * animation:时长 | 过渡方式 | 延迟 | 次数 | 方向 | 填充模式 | 是否暂停 | 动画名;  
+  * 时长: 1s 或者 1000ms
+  * 过渡方式:跟transition取值一样,如linear  
+  * 次数: 3或者2.4或者infinite  
+  * 方向: reverse | alternate | alternate-reverse  
+  * 填充模式: none | forwards | backwards | both  
+  * 是否暂停: paused | running  
+  * 这些属性都有对应的单独属性
 
 CSS是需要多练以及多积累
