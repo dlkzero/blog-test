@@ -22,4 +22,41 @@
   * translate(-50%,-50%)可做绝对定位元素中的居中  
   
 **transform之scale**
+常用写法  
+  * scaleX(<number>)  
+  * scaleY(<number>)  
+  * scale(<number>,<number>?)
+
+经验  
+  * 用的较少，因为容易出现模糊  
+  
+**transform之rotate**
+  常用写法  
+  * rotate([<angle>|<zero>])
+  * rotateZ([<angle>|<zero>])
+  * rotateX([<angle>|<zero>])
+  * rotateY([<angle>|<zero>])
+  * rotate3d太复杂,无法用语言表述  
+  
+经验  
+  * 一般用于360度旋转制作loading  
+  * 用到时候搜索rotate MDN看文档
+  
+**transform之skew**  
+  常用写法  
+  * skewX([<angke>|<zero>])  
+  * skewY([<angke>|<zero>])  
+  * skew([<angke>|<zero>],[<angke>|<zero>]?)
+  
+  经验  
+  * 用得比较少  
+  * 用到时再搜skew MDN文档  
+  
+  **transform多重效果**  
+  组合使用  
+  * transform:scale(0.5)translate(-100%,-100%);
+  * transform:none;取消所有
+  
+  
+  
   
